@@ -70,7 +70,7 @@ jobs:
     - name: Print Happy Message for CD finish
       run : echo "CD Pipeline part Finished successfully!"
 
-print_context:
+  context_print:
     runs-on: ubuntu-latest
     steps:
       - name: Dump GitHub context
